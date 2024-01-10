@@ -1,0 +1,403 @@
+/* css styling */
+     
+
+        
+        /* Set background images for carousel items */
+    .carousel-item {
+        background-size: cover;
+        background-position: center;
+        height: 500px; 
+    }
+
+    /* Set fixed background for carousel items */
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 500px;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    /* Style the carousel caption */
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+    } 
+
+/* Existing styles */
+        section#about {
+            padding: 5rem 0;
+            background-color: #f8f9fa;
+        }
+
+        section#about img {
+            border-radius: 0.25rem;
+            max-width: 100%;
+            height: auto;
+        }
+
+        section#about h2 {
+            margin-bottom: 2rem;
+        }
+
+        section#about p {
+            line-height: 1.6;
+            color: #495057;
+        }
+
+        section#about h4 {
+            margin-bottom: 1rem;
+        }
+
+        /* Team section styles */
+        .team-card {
+            position: relative;
+            overflow: hidden;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .team-card .team-image {
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid #fff;
+        }
+
+        .team-card img {
+            transition: transform 0.3s ease;
+        }
+
+        .team-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .team-card .team-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+
+        .team-card:hover .team-info {
+            opacity: 1;
+        }
+
+    /* Additional CSS for Styling Why choose us*/
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h2, .card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        #why-choose-us .card {
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #why-choose-us .card:hover {
+            transform: translateY(-5px);
+        }
+
+        #why-choose-us .card-title {
+            font-size: 1.5rem;
+        }
+
+        #why-choose-us .card-text {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        #why-choose-us .card-body {
+            padding: 2rem;
+        }
+
+        #why-choose-us h2 {
+            color: #333;
+        }
+
+        #why-choose-us .bg-light {
+            background-color: #f9f9f9;
+        }
+
+     /* Style the services section */
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #services {
+            background-color: #f8f9fa;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        h2 {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .service {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        }
+        .service i {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .service h4 {
+            color: #333;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .service p {
+            color: #666;
+            font-size: 16px;
+        }
+        /* Define new colors for icons */
+        .fa-chart-pie {
+            color: #FF5733; /* Orange */
+        }
+        .fa-hand-holding-usd {
+            color: #33FF84; /* Green */
+        }
+        .fa-user {
+            color: #3366FF; /* Blue */
+        }
+        .fa-file-invoice-dollar {
+            color: #FF33BB; /* Pink */
+        }
+        .fa-home {
+            color: #FF9933; /* Yellow-Orange */
+        }
+        .fa-chart-line {
+            color: #33CCCC; /* Turquoise */
+        }
+        .fa-shield-alt {
+            color: #9933FF; /* Purple */
+        }
+        .fa-graduation-cap {
+            color: #FF3399; /* Magenta */
+        }
+
+     <!-- News style -->
+        .news-item img {
+            transition: transform 0.3s ease-in-out;
+        }
+        .news-item img:hover {
+            transform: scale(1.1);
+        }
+    
+     /* Testimonial Card Styles */
+     /* Testimonial Card Borders */
+    
+    .testimonial-card:nth-child(1) {
+        border: 2px solid #FF2400;
+    }
+
+    .testimonial-card:nth-child(2) {
+        border: 2px solid #33FF00;
+    }
+
+    .testimonial-card:nth-child(3) {
+        border: 2px solid #00FFFF;
+    }
+
+    .testimonial-card:nth-child(4) {
+        border: 2px solid #FFD700;
+    }
+
+    .testimonial-card:nth-child(5) {
+        border: 2px solid #800080;
+    }
+
+    .testimonial-card:nth-child(6) {
+        border: 2px solid #FF69B4;
+    }
+
+    /* Testimonial Card Styles */
+    .testimonial-card {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-card p {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-card cite {
+        font-style: italic;
+        font-size: 0.9rem;
+        color: #555;
+    }
+
+    /* Carousel Control Button Styles */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #28a745;
+        color: #fff;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: auto;
+        opacity: 1;
+    }
+
+    /* Font Awesome Icon Styles */
+    .carousel-control-prev-icon::before,
+    .carousel-control-next-icon::before {
+        content: '\f104';
+        font-family: 'Font Awesome 5 Free';
+    }
+    .carousel-control-next-icon::before {
+        content: '\f105';
+    }
+
+      /* Custom CSS for Partner Section */
+
+/* Style for the lovely-section class */
+.lovely-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Style for the partner logos */
+.partner-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for partner logos */
+.partner-logo:hover {
+    transform: scale(1.05);
+}   
+
+/* Custom CSS for Contact Section */
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+        /* Additional CSS for styling */
+        #contact {
+            background-image: linear-gradient(to bottom, #232323, #454545);
+        }
+
+        #contact h2 {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+        }
+
+        footer p, footer h5 {
+            color: #fff;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            color: #bbb;
+        }
+       /* Additional CSS for styling */
+        #contact {
+            background-image: linear-gradient(to bottom, #232323, #454545);
+        }
+
+        #contact h2 {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+        }
+
+        footer p, footer h5 {
+            color: #fff;
+            font-family: Arial, sans-serif; /* Change font family */
+        }
+
+        footer a {
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+        }
+
+        footer a:hover {
+            color: #bbb;
+        }
+
+        /* Custom styles for phone and email */
+        .contact-info {
+            font-weight: bold;
+        }
+
+        /* Adjust social icons layout */
+        .social-icons li {
+            display: block;
+            margin-bottom: 10px; /* Space between icons */
+        }
